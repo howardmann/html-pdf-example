@@ -1,0 +1,17 @@
+{
+  "name": "html-to-pdf-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "html-pdf": "^2.1.0"
+  }
+}
